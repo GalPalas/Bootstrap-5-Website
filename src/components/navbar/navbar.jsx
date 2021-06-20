@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark py-3">
         <div className="container">
           <a href="/#" className="navbar-brand">
             Frontend Bootcamp
