@@ -31,7 +31,7 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#instractors" className="nav-link">
+                <a href="#instructors" className="nav-link">
                   Instractors
                 </a>
               </li>

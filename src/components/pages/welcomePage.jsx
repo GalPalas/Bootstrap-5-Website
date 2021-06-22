@@ -4,6 +4,7 @@ import Newsletter from "../newsletter/newsletter";
 import Boxes from "../boxes/boxes";
 import Fundamentals from "../fundamentals/fundamentals";
 import Questions from "../questions/questions";
+import Instructors from "../Instructors/Instructors ";
 function WelcomePage() {
   return (
     <div>
@@ -12,6 +13,7 @@ function WelcomePage() {
       <Boxes />
       <Fundamentals />
       <Questions />
+      <Instructors />
     </div>
   );
 }
