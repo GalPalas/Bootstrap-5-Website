@@ -5,6 +5,7 @@ import Boxes from "../boxes/boxes";
 import Fundamentals from "../fundamentals/fundamentals";
 import Questions from "../questions/questions";
 import Instructors from "../Instructors/Instructors ";
+import Contact from "../contact/contact";
 function WelcomePage() {
   return (
     <div>
@@ -14,6 +15,7 @@ function WelcomePage() {
       <Fundamentals />
       <Questions />
       <Instructors />
+      <Contact />
     </div>
   );
 }
