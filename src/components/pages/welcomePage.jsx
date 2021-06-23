@@ -6,6 +6,8 @@ import Fundamentals from "../fundamentals/fundamentals";
 import Questions from "../questions/questions";
 import Instructors from "../Instructors/Instructors ";
 import Contact from "../contact/contact";
+import Footer from "../footer/footer";
+
 function WelcomePage() {
   return (
     <div>
@@ -16,6 +18,7 @@ function WelcomePage() {
       <Questions />
       <Instructors />
       <Contact />
+      <Footer />
     </div>
   );
 }
