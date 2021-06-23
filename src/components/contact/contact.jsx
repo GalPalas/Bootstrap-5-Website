@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactMapGL from "react-map-gl";
 import "./contact.scss";
 
@@ -10,6 +10,11 @@ function Contact() {
     longitude: -122.4376,
     zoom: 10,
   });
+
+  useEffect(() => {
+    setViewport(viewport);
+  }, [viewport]);
+
   return (
     <section className="p-5">
       <div className="container">
